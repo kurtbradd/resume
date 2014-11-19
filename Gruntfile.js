@@ -36,6 +36,7 @@ module.exports = function(grunt) {
 	grunt.loadNpmTasks('grunt-open');
 
 	grunt.registerTask('build', ['exec:latex', 'open:pdf', 'exec:removeLogs']);
+	grunt.registerTask('compile', ['exec:latex', 'exec:removeLogs']);
 	grunt.registerTask('default', ['build','watch']);
 };
 
