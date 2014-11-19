@@ -1,0 +1,178 @@
+\documentclass[]{resume-style}
+
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     LAST UPDATED DATE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \lastupdated
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     TITLE NAME
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\namesection{}{Kurt DaCosta}{
+	{\custombold{Mail:}}
+	\href{mailto:kurtbradd@gmail.com}{kurtbradd@gmail.com}    |
+	{\custombold{Phone:}}519.222.0320 \\
+}{
+	{\custombold{Web:}}\href{https://www.kurtbradd.com}{kurtbradd.com}    |
+	{\custombold{LinkedIn:}}\href{https://www.linkedin.com/in/kurtdacosta}{Kurt DaCosta}    |
+	{\custombold{Github:}}\href{https://github.com/kurtbradd}{@kurtbradd}    |
+	{\custombold{Twitter:}}\href{https://twitter.com/kurtbradd}{@kurtbradd}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     COLUMN ONE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{minipage}[t]{0.30\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     COURSEWORK
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Coursework}
+\leftsidesection{McMaster University}
+Data Structures \& Algorithms\\
+Computer Architecture\\
+Operating Systems\\
+Principles of Programming\\
+Software Design Fundamentals\\
+Computer Based Problem Solving\\
+Information Systems In Business\\
+\experiencesep
+\leftsidesection{Johns Hopkins University}
+Data Science Specialization via Coursera\\
+\experiencesep
+\leftsidesection{Stanford University}
+iPhone Application Development\\
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     SKILLS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Skills}
+Java \textbullet{} JavaScript \textbullet{} Objective-C\\
+\vspace{1pt}
+Node.js \textbullet{} Angular.js \textbullet{} Express.js\\
+\vspace{1pt}
+iOS CocoaTouch \textbullet{} NGINX\\
+\vspace{1pt}
+Redis \textbullet{} MongoDB \textbullet{} GIT\\
+\vspace{1pt}
+Agile Methodologies\\
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Leadership
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Leadership}
+
+\leftsidesection{HackItMac}
+Organized technology talks and provide mentorship on current web technologies and architectures.
+\experiencesep
+
+\leftsidesection{HackMcMaster}
+Organizing the first hackathon at McMaster University. Managing development of registration, submission and sponsor systems.
+\experiencesep
+
+\leftsidesection{Google Developer Group}
+Presented an introduction to the ”MEAN” web development stack.
+\experiencesep
+
+\leftsidesection{McMaster Software Engineering Olympics}
+Coordinated execution of programming challenges to over 125 highschool students from accross Ontario. Judged submissions and provided mentorship to participants.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN TWO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{minipage} 
+\hfill
+\begin{minipage}[t]{0.66\textwidth} 
+
+
+\section{Education}
+
+\runsubsection{McMaster University}
+\descript{| Honours B.A.Sc, Computer Science}
+\location{ Expected May 2016 | Hamilton, ON}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}
+	\item Minor, Information Systems - DeGroote School of Business
+\end{tightemize}
+% \sectionsep
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EXPERIENCE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Work Experience}
+\runsubsection{Undergraduate Research Assistant}
+\descript{| McMaster University}
+\location{ June 2014 – Present | Hamilton, ON}
+\begin{tightemize}
+\item Consulted with Dr. Kevin Veenstra (DeGroote School of Business, McMaster University), to identify solutions to improve effeciency of research staff.
+\item Developed and deployed web applications to streamline data scraping.
+\item Applications have saved over \$5000 in manual data entry costs.
+\end{tightemize}
+\experiencesep
+
+\runsubsection{Co-Founder \& Engineering Lead}
+\descript{| Woof Labs, Inc}
+\location{ Feb 2014 – September 2014 | Toronto, ON}
+\begin{tightemize}
+\item Implemented cloud infrastructure to handle growth to 60,000 users.
+\item Migrated monolithic application to service-oriented architecture.
+\item Resolved performance bottlenecks using proven web technologies.
+\item Involved in all aspects of the company, from design to investment and product strategy.
+\end{tightemize}
+\experiencesep
+
+\runsubsection{iOS Developer Intern}
+\descript{| NiteRoll, Inc}
+\location{ May 2013 - April 2014 | Ottawa, ON}
+\begin{tightemize}
+\item Implemented user interface, ticket purchase workflows, and location based features for venue patrons.
+\item Implemented scanning tickets via device camera, and analytic dashboards to monitor promoter and venue performance.
+\item Mobile application reduced host staffing requirements, saved nightclubs ~\$5000 per year.
+\end{tightemize}
+% \sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Projects
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Projects}
+\vspace{-7pt} % weird hack to fix vertical spacing
+\begin{multicols}{2}
+		\projectsection{TipsyLock}
+		\location{The Next 36 Hackathon 2014}
+		Drunk driving deterrent using Muse EEG headband and Nymi ECG wristband wearable technology.
+		{\projectbold{1\textsuperscript{st} place winner}}
+		\sectionsep
+		\projectsection{Peep}
+		\location{YHack 2014}
+		iOS Hyperlocal Apparel Search\\
+		\sectionsep
+		\projectsection{FB Music Recommender}
+		Personalized music discovery platform using Facebook Graph API.
+	\columnbreak
+		\projectsection{Visualization of clusters in high-dimensional music data}
+		\location{McMaster University \& Microsoft}
+		Building machine learning pipeline to ingest 600MM rows of global music-consumption data.
+		\sectionsep
+		\projectsection{McMasterGram}
+		Built web app that displays all Instagram media McMaster University related tags.
+\end{multicols}
+
+\sectionsep
+\end{minipage} 
+\end{document}  \documentclass[]{article}
