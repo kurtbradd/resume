@@ -153,6 +153,7 @@ Coordinated execution of programming challenges to over 125 highschool students 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Projects}
+\vspace{-7pt} % weird hack to fix vertical spacing
 \begin{multicols}{2}
 		\projectsection{TipsyLock}
 		\location{The Next 36 Hackathon 2014}
