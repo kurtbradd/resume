@@ -9,7 +9,7 @@
 \LoadClass{article}
 
 % Package Imports
-\usepackage[hmargin=1.25cm, vmargin=1.1cm]{geometry}
+\usepackage[hmargin=1.25cm, vmargin=1.2cm]{geometry}
 \usepackage[usenames,dvipsnames]{xcolor}
 \usepackage{hyperref}
 \usepackage{nopageno}
@@ -188,7 +188,7 @@
 \newcommand{\sectionsep}[0]{\vspace{6pt}}
 
 % Work Experience Seperators command
-\newcommand{\experiencesep}[0]{\vspace{10pt}}
+\newcommand{\experiencesep}[0]{\vspace{8pt}}
 
 % Bullet Lists with fewer gaps command
 \newenvironment{tightemize}{

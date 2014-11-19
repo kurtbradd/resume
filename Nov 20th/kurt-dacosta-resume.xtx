@@ -43,7 +43,8 @@ Computer Based Problem Solving\\
 Information Systems In Business\\
 \experiencesep
 \leftsidesection{Johns Hopkins University}
-Data Science Specialization via Coursera\\
+Data Science Specialization via Coursera
+{\footnotesize \textit{\textbf{(expected April 2015) }}} \\
 \experiencesep
 \leftsidesection{Stanford University}
 iPhone Application Development\\
@@ -75,7 +76,7 @@ Agile Methodologies\\
 Organized technology talks and provide mentorship on current web technologies and architectures.
 \experiencesep
 
-\leftsidesection{HackMcMaster}
+\leftsidesection{DeltaHacks}
 Organizing the first hackathon at McMaster University. Managing development of registration, submission and sponsor systems.
 \experiencesep
 
@@ -84,7 +85,7 @@ Presented an introduction to the ”MEAN” web development stack.
 \experiencesep
 
 \leftsidesection{McMaster Software Engineering Olympics}
-Coordinated execution of programming challenges to over 125 highschool students from accross Ontario. Judged submissions and provided mentorship to participants.
+Coordinated execution of programming challenges to over 125 highschool students from across Ontario. Judged submissions and provided mentorship to participants.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
@@ -167,10 +168,10 @@ Coordinated execution of programming challenges to over 125 highschool students 
 	\columnbreak
 		\projectsection{Visualization of clusters in high-dimensional music data}
 		\location{McMaster University \& Microsoft}
-		Building machine learning pipeline to ingest 600MM rows of global music-consumption data.
+		Building machine learning pipeline to ingest 600MM rows of global music consumption data.\\
 		\sectionsep
 		\projectsection{McMasterGram}
-		Built web app that displays all Instagram media McMaster University related tags.
+		Built web application that displays all Instagram media with McMaster University related tags.
 \end{multicols}
 
 \sectionsep
