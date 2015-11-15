@@ -1,0 +1,219 @@
+\documentclass[]{resume-style}
+
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     LAST UPDATED DATE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \lastupdated
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     TITLE NAME
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\namesection{}{Kurt DaCosta}{
+	{\custombold{Mail:}}
+	\href{mailto:kurtbradd@gmail.com}{kurtbradd@gmail.com}    |
+	{\custombold{Phone:}}519.222.0320 \\
+}{
+	{\custombold{Web:}}\href{http://www.kurtbradd.com}{kurtbradd.com}    |
+	{\custombold{LinkedIn:}}\href{https://www.linkedin.com/in/kurtdacosta}{Kurt DaCosta}    |
+	{\custombold{Github:}}\href{https://github.com/kurtbradd}{@kurtbradd}    |
+	{\custombold{Twitter:}}\href{https://twitter.com/kurtbradd}{@kurtbradd}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     COLUMN ONE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{minipage}[t]{0.26\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     SKILLS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \sectionsep
+
+\section{Skills}
+Java \textbullet{} JavaScript \textbullet{} Objective-C\\
+Node.js \textbullet{} Angular.js \textbullet{} Express.js\\
+PostgreSQL \textbullet{} Redis \textbullet{} NGINX\\
+UNIX \textbullet{} GIT \textbullet{} REST APIs \textbullet{} SOA
+{\leftsidesubtitle{Amazon Web Services}}\\
+EC2 \textbullet{} VPC \textbullet{} S3 \textbullet{} RDS \textbullet{} Redshift
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Hackathons
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \sectionsep
+
+\section{Hackathons}
+\leftsidesection{PennApps Winter 2015}
+{\leftsidesubtitle{\hackathonbold{Health Hack Honorable Mention}}}\\
+WanderWise - Haptic feedback navigation for the deaf \& blind. Uses OpenCV, RasPi, Arduino, Proximity Sensors, and iOS.
+% {\projectbold{Honorable Mention}}
+\experiencesep
+
+\leftsidesection{Next 36 Hackathon 2014}
+{\leftsidesubtitle{\hackathonbold{1\textsuperscript{st} Place Winner}}}\\
+TipsyLock - Wearable drunk driving deterrent using Nymi ECG and Muse EEG wearables.
+%{\projectbold{1\textsuperscript{st} place winner}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Leadership
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \sectionsep
+
+\section{Leadership}
+\leftsidesection{DeGroote Association for Information Systems}
+{\leftsidesubtitle{VP Technology (2015 - 2016)}}\\
+Hosting business oriented tech talks and networking events.
+\experiencesep
+
+\leftsidesection{HackItMac}
+{\leftsidesubtitle{Technology Exec (2014 - 2016)}}\\
+Leading a 16 week workshop on full-stack and iOS development.
+Hosted guest technical speakers and career development events.
+\experiencesep
+
+\leftsidesection{DeltaHacks 2015}
+{\leftsidesubtitle{Logistics Exec (2014 - 2015)}}\\
+Lead logistics team for the first ever hackathon at McMaster.\\
+{\smalltext{(300+ students, 20+ sponsors)}}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     COURSEWORK
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Coursework}
+\leftsidesection{McMaster University}
+Data Structures \& Algorithms\\
+Database Management Systems\\
+Distributed Computer Systems\\
+Operations Research\\
+\vspace{4pt}
+\leftsidesection{Stanford University}
+iPhone Application Development\\
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN TWO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{minipage} 
+\hfill
+\begin{minipage}[t]{0.69\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EXPERIENCE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \sectionsep
+
+\section{Work Experience}
+
+\runsubsection{Digital Music Lab}
+\descript{| Research Assistant}
+\location{ May 2015 – Present | McMaster University}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}
+	\item Research in the field of Music Information Retrieval (MIR), primarily focused on context based music recommender systems.
+	\item Lead integration of data sharing collaboration with MixRadio, allowing access to streaming music consumption data from 50 million users globally. 
+	\item Deployed cloud infrastructure to support cluster computing, distributed web crawling, and data warehousing, improving analytical query times by a factor of 80.
+	\item Implemented data pipeline for automated migration of terabyte scale music consumption database into Redshift data warehouse for analytical processing.
+\end{tightemize}
+\experiencesep
+
+\runsubsection{Ego, Inc}
+\descript{| Platform Engineering Lead}
+\location{ February 2015 – September 2015 | Consulting}
+\begin{tightemize}
+	\item Implemented RESTful API with token based authentication for iOS clients.
+	\item Deployed backend on AWS, ensuring scalability, availability and fault-tolerance.
+	\item Utilized relational, document, and key-value data stores to maximize performance.
+\end{tightemize}
+\experiencesep
+
+\runsubsection{DeGroote School of Business}
+\descript{| Research Assistant}
+\location{ June 2014 – December 2014 | McMaster University}
+\begin{tightemize}
+	\item Developed web applications to simplify creation and monitoring of data scraping tasks. Saved over \$7500 per month in human resources.
+\end{tightemize}
+\experiencesep
+
+\runsubsection{Woof Labs, Inc}
+\descript{| Co-Founder \& Engineering Lead}
+\location{ Feb 2014 – September 2014 | Toronto, ON}
+\begin{tightemize}
+	\item Woof simplified life for dog parents, a social network of dog lovers and their dogs. 
+	\item Deployed service-oriented backend on AWS supporting 60K mobile users globally.
+	\item Migrated activity feeds to an in-memory data store. Improved response time of activity feeds, and reduced load on primary data store.
+\end{tightemize}
+\experiencesep
+
+\runsubsection{NiteRoll, Inc}
+\descript{| IOS Developer Intern}
+\location{ May 2013 - April 2014 | Ottawa, ON}
+\begin{tightemize}
+	\item Implemented event discovery and ticket purchasing on flagship application.
+	\item Developed analytics application to monitor promoter and venue performance.
+\end{tightemize}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     RESEARCH
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \sectionsep
+
+\section{Research}
+
+\runsubsection{CogMIR 2015}
+\descript{| General Recommendation System Applied to Multi-Attribute Production Metadata}
+\location{ September 2015 | Ryerson University}
+\begin{tightemize}
+	% \item Authors: Kurt DaCosta, Michael Barone, Matthew Woolhouse
+	\item Presented a novel approach to music recommendations using inexplicit user preference for secondary artists involved in a tracks production; these include producers, engineers, vocalists, session musicians, etc.
+% \item Utilizing the collaboration graph of secondary artists and user preference, weightings are assigned to seed recommended tracks.
+\end{tightemize}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EDUCATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Education}
+
+\runsubsection{McMaster University}
+\descript{| Honours B.A.Sc, Computer Science}
+\location{ Expected April 2016 | Hamilton, ON}
+% \vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}
+	\item Minor, Information Systems - DeGroote School of Business
+\end{tightemize}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Projects
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \sectionsep
+
+% \section{Projects}
+% \vspace{-7pt} % weird hack to fix vertical spacing
+% \begin{multicols}{2}
+% 		\projectsection{WanderWise}
+% 		\location{PennApps Winter 2015}
+% 		Haptic feedback urban navigation for the deaf \& blind. Made with OpenCV, RaspberryPi, Arduino and iOS.\\
+% 		% Urban navigation for the deaf \& blind. OpenCV, Raspberry Pi, Arduino, Proximity Sensors, and iPhone GPS provide haptic feedback navigation.\\
+% 		{\projectbold{Health Hack Honorable Mention}}
+% 	\columnbreak
+% 		\projectsection{TipsyLock}
+% 		\location{The Next 36 Hackathon 2014}
+% 		Wearable drunk driving deterrent. Uses Nymi ECG and Muse EEG to identify driver and detect intoxication.
+% 		{\projectbold{1\textsuperscript{st} place winner}}
+% \end{multicols}
+
+% \sectionsep
+\end{minipage} 
+\end{document}
+\documentclass[]{article}
